@@ -1,0 +1,618 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page-nav .page-nav-list {
+  display: flex;
+}
+
+.page-nav-list li {
+  padding: 15px;
+  list-style-type: none;
+  font-size: 20px;
+  gap: 10px;
+  margin-top: 10px;
+  color: #434141;
+}
+
+.home-nav {
+  background: #D9D9D9;
+  border-radius: 10px;
+}
+
+.tittle {
+  color: #1E2C48;
+  font-size: 30px;
+  padding: 20px;
+}
+
+.admin-profile {
+  display: flex;
+  margin-right: 50px;
+}
+
+span {
+  font-size: 20px;
+  color: #434141;
+}
+
+.admin-profile {
+  padding: 12px;
+}
+
+.admin-name {
+  margin-top: 5px;
+  margin-left: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.main0bg {
+  background-color: #F3F4F7;
+}
+
+.main-bg {
+  margin-top: 20px;
+  padding: 25px;
+}
+
+.main-tittle {
+  color: #434141;
+  font-size: 19px;
+}
+
+.welcome {
+  color: #434141;
+  font-size: 21px;
+}
+
+.main {
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.foster {
+  border-radius: 15px;
+}
+
+.foster-profile {
+  display: flex;
+  padding: 0 35px;
+  margin-top: 41px;
+}
+
+.foster-name {
+  font-size: 22px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.info {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 40px;
+  color: #AAAAAA;
+  font-size: 15px;
+}
+
+.email {
+  margin-left: 5px;
+}
+
+.call {
+  margin-left: 29px;
+}
+
+.profile-1 {
+  border: 1px solid #434141;
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+.completion {
+  font-size: 13px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.completion1 {
+  display: flex;
+}
+
+.rating1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  margin-top: 25px;
+}
+
+.three {
+  margin-left: 100px;
+  margin-top: 13px;
+}
+
+.completed {
+  flex-direction: column;
+  padding: 0 25px;
+}
+
+.tasks21 {
+  border: 1px solid #434141;
+  width: 320px;
+  height: 135px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+}
+
+.inprogres21 {
+  border: 1px solid #434141;
+  width: 320px;
+  height: 135px;
+  margin-top: 30px;
+  border-radius: 15px;
+  background-color: white;
+  display: flex;
+}
+
+.tik {
+  margin-left: 10px;
+  margin-top: 33px;
+}
+
+.number21 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.text21 {
+  color: #434141;
+  font-size: 20px;
+}
+
+.task-text {
+  margin-top: 35px;
+  margin-left: 10px;
+  font-size: 22px;
+  color: #434141;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  width: 438px;
+}
+
+.revenue {
+  border: 1px solid #434141;
+  width: 500px;
+  height: 300px;
+  border-radius: 15px;
+  background-color: #FFFFFF;
+}
+
+.rev1 {
+  margin-left: 27px;
+  margin-top: 25px;
+}
+
+.reve {
+  color: #434141;
+  font-size: 23px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.revenue-price {
+  color: #434141;
+  font-weight: 700;
+  font-size: 27px;
+  margin-top: 10px;
+}
+
+.lastwk {
+  color: #434141;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 6px;
+}
+
+.line1 {
+  height: 1px;
+  width: 450px;
+  background: #AAAAAA;
+  margin-left: 20px;
+  margin-top: 35px;
+}
+
+.line2 {
+  height: 1px;
+  width: 450px;
+  background: #AAAAAA;
+  margin-left: 2px;
+  margin-top: 35px;
+}
+
+.prev01 {
+  display: flex;
+}
+
+.prev1 {
+  margin-top: 40px;
+}
+
+.prev1-text {
+  margin-top: 50px;
+}
+
+.prev15 {
+  color: #353B41;
+  font-size: 15px;
+}
+
+.prev-w {
+  color: #AAAAAA;
+  font-size: 17px;
+}
+
+.prev2 {
+  margin-top: 40px;
+  margin-left: 55px;
+}
+
+.prev2-text {
+  margin-top: 50px;
+}
+
+.three1 {
+  margin-left: 400px;
+}
+
+.main-2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bord-1 {
+  border: 1px solid #434141;
+  width: 500px;
+  height: 320px;
+  margin: 25px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.recent {
+  display: flex;
+  justify-content: space-between;
+}
+
+.recent1 {
+  color: #434141;
+  font-size: 20px;
+  margin-left: 27px;
+}
+
+.View {
+  color: #1C1A73;
+  font-size: 20px;
+  margin-right: 27px;
+}
+
+.data {
+  color: #AAAAAA;
+  font-size: 15px;
+  padding: 15px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.bord-text {
+  color: #434141;
+  font-size: 17px;
+  margin-left: 12px;
+  margin-top: 8px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.design {
+  margin-top: 8px;
+  margin-left: 6px;
+}
+
+.bord-text2 {
+  color: #AAAAAA;
+  font-size: 20px;
+  width: 370px;
+  margin-top: 12px;
+  margin-left: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.prog {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  color: #353B41;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 24px;
+  margin-left: 15px;
+}
+
+.numberofprogress {
+  color: #353B41;
+  font-size: 14px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin-top: 24px;
+  margin-right: 30px;
+}
+
+.img-prc {
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.person2 {
+  margin-left: 15px;
+  margin-top: 10px;
+}
+
+.tasks {
+  flex-direction: column;
+}
+
+.task-border {
+  width: 96%;
+  height: 100px;
+  border: 1px solid #434141;
+  margin-top: 20px;
+  margin-left: 25px;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.bord {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #434141;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.first-task {
+  display: flex;
+}
+
+.task1-img {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.fa-bars {
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.barnumber {
+  margin-top: 35px;
+  font-size: 20px;
+  color: #434141;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.lasttask {
+  display: flex;
+  gap: 5px;
+  color: #434141;
+  margin-right: 30px;
+}
+
+.fa-message {
+  margin-top: 35px;
+  font-size: 20px;
+}
+
+.lasttask1 {
+  display: flex;
+  gap: 5px;
+  color: #434141;
+  margin-right: 10px;
+}
+
+.high1 {
+  margin-top: 30px;
+}
+
+.button {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.btn {
+  width: 240px;
+  height: 60px;
+  background: #F3F4F7;
+  border: 2px solid #0055FF;
+  border-radius: 15px;
+  color: #0055FF;
+  font-size: 17px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 30px;
+}
+
+.list9 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.end {
+  color: #434141;
+  font-size: 18px;
+  margin: 25px;
+}
+
+.end1 {
+  color: #434141;
+  font-size: 18px;
+  margin: 25px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  transition: all 0.3s ease-in-out;
+  background-color: #101010;
+}
+
+@media only screen and (max-width: 660px) {
+  .page-nav-list {
+    position: fixed !important;
+    right: -100% !important;
+    top: 0rem !important;
+    flex-direction: column !important;
+    /* This controls the width of the navbar container*/
+    width: 50% !important;
+    /* This controls the height of the navbar container */
+    height: 100vh !important;
+    text-align: left !important;
+    transition: 0.3s !important;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2) !important;
+    /* This controls the background color of the navbar container*/
+    background-color: #f4f4f4 !important;
+  }
+  .page-nav-list.active {
+    right: 0;
+  }
+  .page-nav-list li:first-child {
+    margin-top: 4.5rem;
+    border-top: 1px solid #ccc;
+  }
+  .nav-item {
+    width: 100%;
+    border-bottom: 1px solid #ccc;
+  }
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+  .hamburger {
+    margin-top: 30px;
+    margin-right: 50px;
+  }
+  .tittle {
+    font-size: 35px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .main-tittle, .welcome {
+    font-size: 27px;
+  }
+  .admin-profile {
+    display: none;
+  }
+  .main {
+    flex-direction: column;
+  }
+  .profile-1 {
+    width: 100%;
+  }
+  .tasks21 {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .inprogres21 {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .revenue {
+    margin-top: 20px;
+    width: 100%;
+  }
+  .main-2 {
+    flex-direction: column;
+  }
+  .bord-1 {
+    width: 90%;
+  }
+  .first-task {
+    height: 400px;
+  }
+  .list9 {
+    flex-direction: column;
+  }
+  .end, .end1 {
+    font-size: 30px;
+  }
+  .line1 {
+    width: 90%;
+  }
+  .line2 {
+    width: 95%;
+  }
+  .prev2 {
+    margin-left: 200px;
+  }
+  .three2 {
+    margin-left: 120px;
+  }
+  .reve {
+    font-size: 30px;
+  }
+  .revenue-price {
+    font-size: 35px;
+  }
+  .lastwk {
+    font-size: 30px;
+  }
+  .number21 {
+    font-size: 27px;
+  }
+  .text21 {
+    font-size: 27px;
+  }
+  .rating1 {
+    flex-direction: column;
+  }
+  .over1 {
+    width: 90%;
+  }
+  .completion {
+    font-size: 15px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .img-prc {
+    margin-bottom: 30px;
+  }
+  .numberofprogress {
+    margin-right: 200px;
+  }
+  .progress {
+    margin-left: 20px;
+  }
+}
